@@ -1,6 +1,10 @@
 import pytest
 import json
 import requests
+
+# import sys
+# sys.path.append('../')
+# print(sys.path)
 from utils.ExcelOperation import ExcleOperate
 
 
