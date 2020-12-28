@@ -3,8 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="c4a62f2a-25a2-409e-a3b6-b919d11a1b97" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/my_warehouses_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/my_warehouses_test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/api.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/static/api.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pytest.ini" beforeDir="false" afterPath="$PROJECT_DIR$/pytest.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/test_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/test_test.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -173,7 +173,7 @@
       <workItem from="1609045197894" duration="273000" />
       <workItem from="1609065587969" duration="651000" />
       <workItem from="1609073259247" duration="1506000" />
-      <workItem from="1609142930710" duration="2309000" />
+      <workItem from="1609142930710" duration="3384000" />
     </task>
     <servers />
   </component>
