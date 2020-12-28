@@ -44,7 +44,8 @@ class TestWarehouse:
         ret = resp.json()
         id = ret.get('data')
         id_list.append(id)
-        print(id_list)
+        # print(i/'d_list)
+
         pytest.assume(ret.get('success'))
 
     def test_edit_warehouse(self, login, data=dic[3]):
@@ -52,8 +53,11 @@ class TestWarehouse:
         headers.update({'Authorization': login})
         body_data = json.loads(data['body_data'])
         id = id_list[-1]
-        print(id)
+        # print(id)
         body_data.update({'id':id})
+        # print('url:', data['url'])
+        # print('headers:', headers)
+        # print('data:', data)
         resp = requests.request(method=data['method'],
                                 url=data['url'],
                                 headers=headers,
@@ -61,7 +65,7 @@ class TestWarehouse:
                                 )
 
         ret = resp.json()
-
+        # print(232323,ret)
         pytest.assume(ret.get('success') == True)
 
 
@@ -69,7 +73,8 @@ class TestWarehouse:
         headers = json.loads(data['header'])
         headers.update({'Authorization': login})
         id = id_list.pop()
-        print(id_list, id)
+        # print(id_list, id)
+        # print(2323,data)
         url = data.get('url').format(id=id)
         resp = requests.request(method=data['method'],
                                 url=url,
@@ -77,5 +82,6 @@ class TestWarehouse:
                                 )
 
         ret = resp.json()
+        # print(ret)
         pytest.assume(ret.get('success') == True)
 
