@@ -1,4 +1,4 @@
-import pytest
+﻿import pytest
 import json
 import requests
 
@@ -9,14 +9,14 @@ from utils.ExcelOperation import ExcleOperate
 
 
 # 0是login的sheet 1是warehouse
-dic= ExcleOperate(1).get_excel_lists()
+dic= ExcleOperate(0).get_excel_lists()
 id_list = []
 
 class TestWarehouse:
 
 
 
-    def test_get_warehouses(self, login, data=dic[0]):
+    def test_get_warehouses(self, login, data=dic[1]):
         headers = json.loads(data['header'])
         headers.update({'Authorization': login})
         # print(headers)
@@ -29,7 +29,7 @@ class TestWarehouse:
         pytest.assume(ret.get('success'))
 
 
-    def test_add_warehouse(self, login, data=dic[1]):
+    def test_add_warehouse(self, login, data=dic[2]):
         headers = json.loads(data['header'])
         headers.update({'Authorization': login})
         # print(data[5])
@@ -47,7 +47,7 @@ class TestWarehouse:
         print(id_list)
         pytest.assume(ret.get('success'))
 
-    def test_edit_warehouse(self, login, data=dic[2]):
+    def test_edit_warehouse(self, login, data=dic[3]):
         headers = json.loads(data['header'])
         headers.update({'Authorization': login})
         body_data = json.loads(data['body_data'])
@@ -65,7 +65,7 @@ class TestWarehouse:
         pytest.assume(ret.get('success') == True)
 
 
-    def test_del_warehouse(self, login, data=dic[3]):
+    def test_del_warehouse(self, login, data=dic[4]):
         headers = json.loads(data['header'])
         headers.update({'Authorization': login})
         id = id_list.pop()
