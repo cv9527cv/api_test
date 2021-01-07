@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c4a62f2a-25a2-409e-a3b6-b919d11a1b97" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/report/2f7b2c47-c1d2-4f2c-8a1f-6886c05dd3ee-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/4718a69e-e1f4-42c7-81dc-3d62df47af10-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/4fb793e7-a690-428d-ba4e-8308ba3b92fb-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/940a7947-a0b8-4018-930d-481f9eb60c26-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/c68207dd-fa2a-4691-8912-bf9dd4910d0b-result.json" beforeDir="false" />
-    </list>
+    <list default="true" id="c4a62f2a-25a2-409e-a3b6-b919d11a1b97" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -179,7 +173,7 @@
       <workItem from="1609221643015" duration="80000" />
       <workItem from="1609727569843" duration="48000" />
       <workItem from="1610008655525" duration="10000" />
-      <workItem from="1610008698712" duration="2148000" />
+      <workItem from="1610008698712" duration="2443000" />
     </task>
     <servers />
   </component>
